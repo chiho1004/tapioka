@@ -18,6 +18,10 @@
     background-color:tan
 }
 
+.first{
+    margin-top: 100px;
+}
+
 .first img{
     width: 40vw;
 }
@@ -87,7 +91,7 @@
 }
 
 .map_cap img{
-    width: 200px;
+    width: 250px;
     
 }
 
