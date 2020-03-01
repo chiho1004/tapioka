@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main_logo{
+    width: 100%;
+    vertical-align: bottom;
+}
+.top{
+    align-items: center;
+    
+}
+
+.tapioca_container{
+    background-color: #FFE4E1;
+    overflow: hidden;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.tapioca_card{
+    text-align: center;
+    width: 300px;
+    float: left;
+}
+
+
+#main{
+    height:100%;
+    min-height:100%;
+    margin-top:-46px;　　　 
+    margin-bottom:2px;
+}
+
+#main{
+　-webkit-filter: hue-rotate(100deg);
+　filter: hue-rotate(100deg);
+}
+
+.tapioca_container a{
+   font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+.tapioca_card img{
+    width: 300px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.tapioca_card a{
+    margin-bottom: 20px;
+}
+
+.button {
+  position: relative;
+  display: inline-block;
+  padding: .65em 4em;
+  color: #333;
+  text-decoration: none;
+  text-align: center;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.button::after {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: -1;
+  content: '';
+  width: 102%;
+  height: 102%;
+  background-color: #fe5f95;
+  -webkit-transform: rotate(1deg);
+  transform: rotate(1deg);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover::after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: rotate(0);
+  transform: rotate(0);
+}
+.map{
+    width: 100vw;
+}
+
+.cap{
+    width: 40vw;
+    margin-left: 100px;
+
+}

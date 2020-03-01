@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>YUCHA</title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="tapioca.css">
+    <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.inview.min.js"></script>
+</head>
+
+<body>
+    <div class="all">
+        <div class="top">
+            <img src="img/yucha.top.jpg" alt="">
+        </div>
+        <div class="cap">
+            <img src="img/yucha.cap.PNG" alt=""><div class="map_cap">
+            <a href="https://goo.gl/maps/cnTMuSfEXeDRLFQA9" target="_blank"><img src="img/map.cap.PNG" alt=""></a>
+            </div>
+        </div>
+        <div class="first">
+            <div class="yuchain animated">
+                <img src="img/in2.PNG" alt="">
+                <img class="" src="img/in3.PNG" alt="">
+                <img src="img/in1.PNG" alt="">
+            </div>
+        </div>
+        <div class="second">
+            <img src="img/yucha.menu.text.PNG" alt="">
+            <div class="menu">
+            <img src="img/yuchamenu.PNG" alt="">
+            </div>
+        </div>
+    </div>
+    <script>
+        $(function() {
+            $('.yuchain').on('inview', function(event, isInView) {
+                if (isInView) {
+                    //表示領域に入った時
+                    $(this).addClass('zoomIn');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

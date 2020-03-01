@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>houcha</title>
+    <link rel="stylesheet" href="animate.css">
+    <link rel="stylesheet" href="tapioca.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery.inview.min.js"></script>
+</head>
+<body>
+    <div class="all">
+      <div class="top">
+            <img src="img/" alt="">
+        </div> 
+        <div class="cap">
+            <img src="img/houcha.cap.PNG" alt="">
+            <div class="map_cap">
+                <a href="https://goo.gl/maps/CgKVX5gwpAtTK4BN8" target="_blank"><img src="img/map.cap.PNG" alt=""></a>
+            </div>
+        </div>
+        <div class="first">
+            <div class="yuchain animated">
+                <img src="img/houchain1.PNG" alt="">
+                <img src="img/houchain2.PNG" alt="">
+                <img src="img/houchain3.PNG" alt="">
+            </div>
+        </div> 
+        <div class="second">
+            <img src="img/yucha.menu.text.PNG" alt="">
+            <div class="menu">
+            <img src="img/houcha.menu.jpg" alt="">
+            </div>
+        </div>
+  </div> 
+  <script>
+        $(function() {
+            $('.yuchain').on('inview', function(event, isInView) {
+                if (isInView) {
+                    //表示領域に入った時
+                    $(this).addClass('zoomIn');
+                }
+            });
+        });
+    </script>
+</body>
+</html>

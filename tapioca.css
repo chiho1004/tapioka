@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.top{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.top img{
+    margin-top: -100px;
+}
+
+
+.all{
+    background-color:tan
+}
+
+.first img{
+    width: 40vw;
+}
+
+.first h1{
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    color: #FFE4E1;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.first a{
+     font-family: 'huimin' !important;
+     display: inline-block;
+     font-size: 1.8rem;
+     padding: .2em 2.5em;
+     border: 2px solid #FFE4E1;
+     border-radius: .4em 2em .5em 3em/3em .5em 2em .5em;
+     color: #FFE4E1;
+     text-decoration: none;
+     text-align: center;
+     background-color: tan;
+     margin:10px;
+     font-weight: bold;
+}
+.first img{
+    width: 100vw;
+}
+
+.second{
+    text-align: center;
+}
+
+.second img{
+    width: 80vw;
+    text-align: center;
+    margin-top: 50px;
+}
+.menu{
+    padding-bottom: 50px;
+}
+.yuchain{
+    text-align: center;
+}
+
+.yuchain img{
+    width: 350px;
+}
+
+.cap{
+    position: relative;
+}
+
+.cap img{
+    width: 900px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 70px;
+    
+}
+
+.map_cap{
+    position: absolute;
+    top: 220px;
+    right: 300px;
+}
+
+.map_cap img{
+    width: 200px;
+    
+}
+
+.top img{
+    width: 100vw;
+}
